@@ -1,0 +1,239 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPYL7+oKGYuiQrRO6nfmTVZ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/berfin-mai/GlobalAlHubPhtonCourse/blob/main/final%20%C3%B6devi\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HZD7MtSwIf1S",
+        "outputId": "af58bbfb-eb6d-4de5-c835-8c3c188226c1"
+      },
+      "source": [
+        "\r\n",
+        "başlangıç = \"10 sorudan oluşan yarışmamıza hoşgeldiniz.\"\r\n",
+        "print(başlangıç)\r\n",
+        "ilk_soru=str(input(\"Türkiyenin başkenti hangi şehirdir:\"))\r\n",
+        "print(ilk_soru)\r\n",
+        "if ilk_soru == \"ankara\" or ilk_soru == \"ANKARA\":\r\n",
+        "   print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "   print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")  \r\n",
+        "ikinci_soru=str(input(\"suyun donma noktası nedir:\"))\r\n",
+        "print(ikinci_soru)\r\n",
+        "if ikinci_soru == \"0\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "üçüncü_soru=str(input(\"istiklal marşı ne zaman yazılmıstır:\"))\r\n",
+        "print(üçüncü_soru)\r\n",
+        "if üçüncü_soru == \"12 mart 1921\" or üçüncü_soru == \"12.03.1921\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "dördüncü_soru=str(input(\"türkiyeye kurulan ilk üniversitenin adı:\"))\r\n",
+        "print(dördüncü_soru)\r\n",
+        "if dördüncü_soru == \"anadolu üniversitesi\" or dördüncü_soru == \"ANADOLU ÜNİVERSİTESİ\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "beşinci_soru=str(input(\"elma ülkemizin en çok hangi bölgesinde yetişir.:\"))\r\n",
+        "print(beşinci_soru)\r\n",
+        "if beşinci_soru == \"akdeniz\" or beşinci_soru == \"Akdeniz\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "altıncı_soru=str(input(\"2015 kimya nobel ödülünüü kim almıştır:\"))\r\n",
+        "print(altıncı_soru)\r\n",
+        "if altıncı_soru == \"AZİZ SANCAR\" or altıncı_soru == \"aziz sancar\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "yedinci_soru=str(input(\"istanbul'un fethi hangi yılda olmuştur:\"))\r\n",
+        "print(yedinci_soru)\r\n",
+        "if yedinci_soru == \"1453\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "sekizinci_soru=str(input(\"türkiyenin ilk pilot kadını kimdir:\"))\r\n",
+        "print(sekizinci_soru)\r\n",
+        "if sekizinci_soru == \"sabiha gökçen\" or sekizinci_soru == \"SABİHA GÖKÇEN\" :\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "dokuzuncu_soru=str(input(\"türkiye'nin en yüksek dağı:\"))\r\n",
+        "print(dokuzuncu_soru)\r\n",
+        "if dokuzuncu_soru == \"ağrı dağı\" or dokuzuncu_soru == \"AĞRI DAĞI\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "onuncu_soru=str(input(\"kürk mantolu madonna kitabın yazarı kimdir:\"))\r\n",
+        "print(onuncu_soru)\r\n",
+        "if onuncu_soru ==\"sabahattin ali\" or sekizinci_soru == \"SABAHATTİN ALİ\":\r\n",
+        "    print(\"soruyu doğru bildiniz.\")\r\n",
+        "else:\r\n",
+        "    print(\"soruyu yanlış bildiniz.\")\r\n",
+        "print(\"\\n\")\r\n",
+        "\r\n",
+        "print(\"5 sorudan fazla doğru bildiyseniz başarılı oldunuz ama bilemediyseniz başarısız oldunuz. \")\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n",
+        "\r\n"
+      ],
+      "execution_count": 216,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "10 sorudan oluşan yarışmamıza hoşgeldiniz.\n",
+            "Türkiyenin başkenti hangi şehirdir:ankara\n",
+            "ankara\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "suyun donma noktası nedir:0\n",
+            "0\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "istiklal marşı ne zaman yazılmıstır:12 mart 1921\n",
+            "12 mart 1921\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "türkiyeye kurulan ilk üniversitenin adı:anadolu üniveristesi\n",
+            "anadolu üniveristesi\n",
+            "soruyu yanlış bildiniz.\n",
+            "\n",
+            "\n",
+            "elma ülkemizin en çok hangi bölgesinde yetişir.:akdeniz\n",
+            "akdeniz\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "2015 kimya nobel ödülünüü kim almıştır:aziz sancar\n",
+            "aziz sancar\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "istanbul'un fethi hangi yılda olmuştur:1453\n",
+            "1453\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "türkiyenin ilk pilot kadını kimdir:sabiha gökçen\n",
+            "sabiha gökçen\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "türkiye'nin en yüksek dağı:ağrı dağı\n",
+            "ağrı dağı\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "kürk mantolu madonna kitabın yazarı kimdir:sabahattin ali\n",
+            "sabahattin ali\n",
+            "soruyu doğru bildiniz.\n",
+            "\n",
+            "\n",
+            "5 sorudan fazla doğru bildiyseniz başarılı oldunuz ama bilemediyseniz başarısız oldunuz. \n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "u1GAVGrGP6wa"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "cMjoN3EZLIti"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "alHxjJy8KgJB"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "WUqPHsGyKWO8"
+      },
+      "source": [
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "u_gfRDjrKW__"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
